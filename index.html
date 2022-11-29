@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<title> Portfolio </title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <header>
+            <div class="logo">
+                <a href="#"> Cesar </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" onclick="selecionar()" >Inicio</a></li>
+                    <li><a href="#sobremi" onclick="selecionar()">Sobre mi</a></li>
+                    <li><a href="#educacion"onclick="selecionar()">Educacion</a></li>
+                    <li><a href="#certificados"onclick="selecionar()">Certificados</a></li>
+                    <li><a href="#contacto"onclick="selecionar()">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/IMG_20221003_105728.jpg" alt="">
+            </div>
+            <h1>Ochoa Cesar</h1>
+            <h2>Programador Jr./Animador y modelador 3d Jr.</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-Arstation"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <h1>Sobre Mí</h1>
+        <p><span>Hola, soy Ochoa Cesar.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+    </section>
+    <section id="inf" class="inf">
+        <div class="fila">
+                <h1>Datos Personales</h1>
+                        <p><strong>Cumpleaños</strong> 02/07/2002</p>
+                        <p><strong>Teléfono</strong> +54 9 3884602284</p>
+                        <p><strong>Email</strong>  cio.4422.ochoa@gmail.com</p>
+                        <p> <strong>Dirección</strong>  San Salvador de Jujuy, Jujuy, Argentina </p>
+        </div>
+    </section>
+
+    <section id="educacion" class="educacion">
+            <h1>Educacion</h1>
+            <h2>Escuela Primaria: </h2><h4>Obispo Padilla N°50</h4>
+            <h2>Escuela Secundaria: </h2><h4>E.T.P. N°1 "Aristobulo Vargas Belmonte"</h4>
+    </section>
+
+    <section id="certificados" class="certificados">
+            <h1>Certificados</h1>
+    </section>
+
+    <section id="contacto" class="contacto">
+            <h1>Contacto</h1>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre"><br>
+                    <input type="text" placeholder="Teléfono"><br>
+                    <input type="text" placeholder="Dirección de correo">
+                </div>
+                <div class="col">
+                    <textarea name="" id="" cols="50%" rows="4" placeholder="Mensaje"></textarea>
+                </div>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+            </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up" style="font-size: 30px;"> ↑ </i>
+        </a>
+    </footer>            
+</body>
+</html>
